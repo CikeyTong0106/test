@@ -1,0 +1,244 @@
+@media screen and (max-width: 600px) {
+
+    /* responsive navbar */
+
+    .navbar{
+        width: 90%;
+    }
+
+    .navbar__right .navbar__right-list .navbar__right-item{
+        display: none;
+    }
+
+    .navbar__right .navbar__right-list li.navbar__right-icon {
+        display: block;
+        font-size: 20px;
+    }
+
+    .navbar__right .navbar__right-list li.navbar__right-icon::before{
+        content: "a";
+        background-color: rgb(252, 252, 252);
+        position: absolute;
+        top: 20px;
+        width: 80px;
+        right: 40px;
+        color  : #fff;
+    }
+
+    .navbar__right .navbar__right-list li.navbar__right-icon:hover .navbar__right-icon--item{
+       display: block;
+    }
+
+    .navbar__right .navbar__right-list li.navbar__right-icon i{
+        position: relative;
+    }
+    
+    .navbar__right .navbar__right-list li.navbar__right-icon ul.navbar__right-icon--item{
+        position: absolute;
+        background-color: #ccc;
+        right: 10%;
+        top: 30px;    
+        display: none;
+        width: 150px;
+        box-shadow: 0 4px 10px rgba(127, 125, 125, 0.4);
+    }
+
+    .navbar__right .navbar__right-list li.navbar__right-icon ul.navbar__right-icon--item li{
+        list-style: none;
+        padding: 10px 20px;
+    }
+
+    .navbar__right .navbar__right-list li.navbar__right-icon ul.navbar__right-icon--item li:hover{
+        cursor: pointer;
+        color : #fff;
+        background-color: #ccc;
+    }
+
+    /* === hero section == */
+
+    .h-section{
+        width: 90%;
+        display: flex;
+        flex-direction : column;
+    }
+
+    .h-section .h-section__left{
+        width: 100%;
+    }
+
+    div.h-section .h-section__left h1{
+        font-size: 33px;
+        text-align: center;
+    }
+
+    div.h-section .h-section__left p{
+        margin-top: 40px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .h-section .h-section__left button{
+        margin:  40px auto;
+    }
+
+    .h-section__right img{
+        width: 100%;
+    }
+
+    /*==== company section === */
+
+    div.c-section{
+        width: 90%;
+    }
+
+    /* ===== branding section ====*/
+
+    div.b-section{
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    div.b-section .b-section__right h1{
+       font-size: 35px;
+       text-align: center;
+    }
+
+    
+    div.b-section .b-section__right p{
+        font-size: 13px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .b-section .b-section__right .icon-right{
+        display : none;
+    }
+    
+    .b-section .b-section__right i.icon-down{
+        margin-top: 20px;
+        font-size: 20px;
+        display : block;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* ==== custom section =====*/
+
+    div.cus-section{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    div.cus-section .cus-section__left h1{
+       font-size: 35px;
+       text-align: center;
+    }
+
+    
+    div.cus-section .cus-section__left p{
+        font-size: 13px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .cus-section .cus-section__left i.icon-right{
+        display : none;
+    }
+    
+    .cus-section .cus-section__left i.icon-down{
+        margin-top: 20px;
+        font-size: 20px;
+        display : block;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ==== t-section ===*/
+
+    div.t-section p{
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+       
+    div .t-section h1{
+        text-align: center;
+        font-size:35px;
+        margin: 0 auto;
+    }
+
+    div.t-section .t-section__list{
+        flex-direction: column;
+    }
+
+    div.t-section .t-section__list .t-section__item{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    div.t-section .t-section__list .t-section__item p{
+
+    }
+
+
+
+    /* contact section */
+
+    div.contact-section{
+        height: auto;
+        padding : 30px 30px 10px 30px ;
+    }
+
+    .contact-section .contact-section__left img{
+        display : none !important;
+    }
+
+    div.contact-section .contact-section__right h1{
+      font-size: 30px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    div.contact-section .contact-section__right p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    div.contact-section .contact-section__right button{
+        align-items: center;
+        display: block;
+        margin: 40px auto;
+    }
+
+
+
+    /* ==== footer ===*/
+
+    div.footer{
+        padding: 50px 0 30px 0;
+    }
+
+   div.footer .footer__list{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+   }
+
+   div.footer .footer__item{
+    text-align: center;
+    margin-top: 30px;
+   }
+
+   div.footer .footer__list .footer__item p{
+    margin-top: 40px;
+   }
+
+
+   div.footer p.copyright{
+    width: 100px;
+}
+
+
+
+}
